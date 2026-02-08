@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio - FolioOne Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="portfolio-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Sobre mí</a></li>
+          <li><a href="resume.html">Resumen</a></li>
+          <li><a href="portfolio.html" class="active">Proyectos</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://wa.me/5492494663349" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/amaike-gopar/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Este portfolio documenta casos de estudio técnicos reales, donde se describen:</p>
+        <ul class="list-unstyled mt-3">
+          <li>Decisiones de arquitectura y sus motivaciones</li>
+          <li>Problemas encontrados en escenarios reales</li>
+          <li>Soluciones implementadas y aprendizajes obtenidos</li>
+        </ul>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-strategy">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/langgraph.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="portfolio.html#case-langgraph" class="portfolio-lightbox"><i class="bi bi-eye" title="Leer"></i></a>
+                    
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Orquestación de herramientas con LangGraph</h4>
+                  <p>Diseño de un sistema conversacional determinístico con estado persistente</p>
+                  <div class="portfolio-tags">
+                    <span>LangGraph</span>
+                    <span>IA</span>
+                    <span>LLM</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/qdrant.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="portfolio.html#case-rag-qdrant" class="portfolio-lightbox" title="Leer"><i class="bi bi-eye"></i></a>
+                    
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Diseño de un sistema RAG con Qdrant como fuente operativa y PostgreSQL para auditoría</h4>
+                  <p>Recuperación semántica controlada en sistemas conversacionales multicliente</p>
+                  <div class="portfolio-tags">
+                    <span>Qdrant</span>
+                    <span>RAG</span>
+                    <span>PostgreSQL</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-operations">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/rag.jpg" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/portfolio/portfolio-3.webp" class=" portfolio-lightbox"><i class="bi bi-eye" title="Leer"></i></a>
+                    
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Prompt Engineering en sistemas conversacionales con Tools y RAG</h4>
+                  <p>Diseño de prompts como contratos de comportamiento</p>
+                  <div class="portfolio-tags">
+                    <span>LLM</span>
+                    <span>Prompts</span>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-technology">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/SAM.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="portfolio.html#case-sam" class="portfolio-lightbox"><i class="bi bi-eye" title="Leer"></i></a>
+                    <a href="https://amaikegop.github.io/SAM-WEB/" class="portfolio-lightbox" target="_blank"><i class="bi bi-box-arrow-up-right" title="Acceder"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Startup - SAM</h4>
+                  <p>Solución basada en inteligencia artificial para trabajadores autónomos, PyMes y grandes empresas (en desarrollo)</p>
+                  <div class="portfolio-tags">
+                    <span>Startup</span>
+                    <span>IA</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-strategy">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/pioneer.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="portfolio.html#case-tesis" class="portfolio-lightbox"><i class="bi bi-eye" title="Leer"></i></a>
+                    <a href="https://drive.google.com/drive/folders/15qdGJXYji_0g7__ms0H4iyDZgqimT9uy?usp=sharing" class="portfolio-lightbox" target="_blank"><i class="bi bi-box-arrow-up-right" title="Acceder"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Robótica Autónoma – Sistema de Control Basado en Comportamientos</h4>
+                  <p>Proyecto de Tesis de Grado – Ingeniería en Sistemas (2025)</p>
+                  <div class="portfolio-tags">
+                    <span>Control Autónomo</span>
+                    <span>Robótica</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- End Portfolio Items Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <section class="section light-background" id="case-langgraph">
+      <div class="container" data-aos="fade-up">
+
+        <!-- Header -->
+        <div class="section-title text-start mb-3">
+          <h3>Orquestación de herramientas con LangGraph</h3>
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <p class="mb-1">
+                Sistema conversacional determinístico con estado persistente
+              </p>
+            </div>
+            <div class="col-lg-4 text-lg-end fst-italic">
+              Julio 2025
+            </div>
+          </div>
+        </div>
+
+        <!-- 1. Contexto y problema -->
+        <div class="row mb-5">
+          <div class="col-12">
+            <h5>Contexto</h5>
+            <p>
+              Este caso de estudio describe el diseño de una capa de orquestación para un sistema conversacional en producción,
+              donde solicitudes en lenguaje natural deben traducirse en acciones determinísticas del sistema.
+            </p>
+            <p>
+              El sistema interactúa con múltiples herramientas externas, mantiene estado por usuario entre mensajes
+              y debe tolerar ambigüedad, cambios de intención y fallos parciales sin comprometer la consistencia del flujo.
+            </p>
+
+            <h5 class="mt-5">Problema técnico</h5>
+            <ul>
+              <li>El lenguaje natural es ambiguo, pero las acciones del sistema no</li>
+              <li>Las herramientas solo deben ejecutarse con argumentos validados</li>
+              <li>El estado debe persistir entre mensajes y reinicios</li>
+              <li>Los errores parciales no pueden dejar estados inconsistentes</li>
+            </ul>
+
+            <p class="mb-0">
+              El desafío central es coordinar decisiones generadas por un LLM con ejecución controlada de acciones,
+              manteniendo trazabilidad y control del flujo.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2. Arquitectura general -->
+        <div class="row mb-5">
+          <div class="col-12">
+            <h5>Arquitectura general del sistema</h5>
+            <p>
+              La solución se apoya en una arquitectura explícita donde el modelo de lenguaje
+              participa en la toma de decisiones, pero no ejecuta acciones directamente.
+            </p>
+
+            <div class="text-center">
+              <img src="assets/img/portfolio/grafo.jpg" alt="" class="img-fluid">
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- 3. Diseño del grafo -->
+        <div class="row mb-5">
+          <div class="col-12">
+            <h5>Diseño del grafo de orquestación</h5>
+            <p>
+              El sistema se modela como un grafo de estados explícito.
+              Cada nodo representa una etapa bien delimitada del procesamiento
+              y cada transición responde a condiciones verificables.
+            </p>
+
+            <div class="row d-flex justify-content-around">
+              <div class="col-lg-4 p-3 border rounded">
+                <h6 >Objetivos de diseño</h6>
+                  <ul>
+                    <li>Evitar flujos implícitos</li>
+                    <li>Reducir efectos colaterales</li>
+                    <li>Razonar sobre estados válidos e inválidos</li>
+                    <li>Permitir recuperación ante fallos parciales</li>
+                  </ul>
+                
+              </div>
+              <div class="col-lg-4 p-3 border rounded">
+                <h6>Principios</h6>
+                <ul>
+                  <li>Cada nodo cumple una única responsabilidad</li>
+                  <li>Las decisiones no ejecutan acciones</li>
+                  <li>Las acciones no alteran el flujo</li>
+                  <li>El estado se actualiza de forma controlada</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Flujo del sistema -->
+        <div class="row mb-5">
+          <h5>Flujo conceptual del sistema</h5>
+      
+            <div class="col-6 mt-3">
+              <h6>Manejo de estado</h6>
+              <p>
+                El estado conversacional es una estructura explícita que persiste entre mensajes
+                y actúa como única fuente de verdad del sistema.
+              </p>
+              <ul>
+                <li>Intención resuelta</li>
+                <li>Argumentos normalizados</li>
+                <li>Flags de validación</li>
+                <li>Historial mínimo necesario</li>
+              </ul>
+            </div>
+
+            <div class="col-6 mt-3">
+              <h6>Orquestación de herramientas</h6>
+              <p>
+                Las herramientas se implementan como funciones determinísticas,
+                completamente desacopladas del modelo de lenguaje.
+              </p>
+              <ul>
+                <li><strong>Decisión:</strong> el LLM determina qué hacer</li>
+                <li><strong>Ejecución:</strong> el sistema controla cómo y cuándo hacerlo</li>
+              </ul>
+              <p class="mb-0">
+                Antes de cada ejecución se valida la intención, la completitud de los argumentos
+                y la coherencia del estado actual.
+              </p>
+            </div>
+            <div class="col-12 mt-5">
+              <p>El flujo del sistema se centra en una serie de pasos que leen y/o actualizan la información que cada tool requiere para ser ejecutada, garantizando máximo control en la implementacion del grafo.</p>
+              <ol>
+                <li>Verificación de origen de los argumentos</li>
+                <p>Cada uno de los argumentos requeridos por la tool pasa por un mecanismo de verificación de origen, permitiendo determinar si provienen de una fuente confiable, como podria ser el mensaje del usuario u otra tool, o si provienen de una fuente desconocida. Cada tipo de fuente posee un órden de confiabilidad.</p>
+                <li>Normalización de la entrada</li>
+                <p>Cada parametro critico que requiere la tool, pasa por un nodo encargado de normalizar la entrada, reduciendo la responsabilidad del modelo en la gestión de entidades con formatos espefíficos.</p>
+                <li>Pedido de confirmación de parámetros</li>
+                <p>Dependiendo de que tool se va a ejecutar es necesario pedir una confimación en aquellos parametros críticos que no provienen de fuentes confiables para el sistema, con el objetivo de reducir errores por alucinaciones del sistema o mal tratado de entidades.</p>
+                <li>Ejecución de herramienta</li>
+                <p>El siguiente paso es ejecutar la tool con los parametros confiables y verficados.</p>
+                <li>Actualización de estado</li>
+                <p>En cada uno de los pasos anteriores, el espado guarda la información necesaria para permitir la verificación diferenciada en mas de un nodo y garantizar la persistencia en distintas invoxaciones al modelo.</p>
+                <li>Generación de salida controlada</li>
+                <p>Al finalizar la ejecución de las tools, el control vuelve al mando de modelo para generar una respuesta acorde a la solicitud del usuario y la salida obtenida.</p>
+              </ol>
+            </div>
+        </div>
+
+       
+        <!-- 6. Errores y aprendizaje -->
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <h5>Manejo de errores</h5>
+            <p>
+              Los errores se modelan como transiciones explícitas del grafo,
+              no como excepciones fatales.
+            </p>
+            <ul>
+              <li>Argumentos incompletos → retorno a validación</li>
+              <li>Ejecución fallida → estado de error controlado</li>
+              <li>Ambigüedad persistente → solicitud de confirmación</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6">
+            <h5>Lecciones aprendidas</h5>
+            <ul>
+              <li>Los grafos explícitos reducen la complejidad sistémica</li>
+              <li>El estado debe tratarse como un contrato</li>
+              <li>Separar decisión y ejecución es crítico</li>
+              <li>El control del flujo es más importante que el prompting</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section light-background" id="case-rag-qdrant">
+      <div class="container" data-aos="fade-up">
+
+        <!-- Header -->
+        <div class="section-title text-start mb-5">
+          <h3>Diseño de un sistema RAG con Qdrant como fuente operativa y PostgreSQL para auditoría</h3>
+
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <p class="mb-1">
+                Recuperación semántica controlada en sistemas conversacionales multicliente
+              </p>
+            </div>
+            <div class="col-lg-4 text-lg-end fst-italic text-muted">
+              Enero 2026
+            </div>
+          </div>
+        </div>
+
+        <!-- Contexto -->
+        <div class="row mb-5">
+          <div class="col-lg-7">
+            <h5>Contexto</h5>
+            <p>
+              Este caso de estudio describe el diseño de un sistema
+              <strong>Retrieval-Augmented Generation (RAG)</strong> integrado a un asistente
+              conversacional en producción.
+            </p>
+            <p>
+              El sistema recupera información específica por cliente de forma
+              eficiente, aislada y reproducible, integrándose con flujos conversacionales
+              complejos implementados en <strong>LangGraph</strong> y basados en herramientas (tools).
+            </p>
+            <p>
+              En este diseño, <strong>Qdrant</strong> actúa como fuente operativa de información,
+              mientras que <strong>PostgreSQL</strong> se utiliza para auditoría, trazabilidad y
+              control del contenido.
+            </p>
+
+            <h5>Objetivos de diseño</h5>
+            <ul>
+              <li>Recuperar información relevante con baja latencia</li>
+              <li>Garantizar aislamiento estricto entre clientes (multitenancy)</li>
+              <li>Controlar qué información puede ser utilizada por el sistema</li>
+              <li>Permitir auditoría y trazabilidad de respuestas</li>
+              <li>Evitar dependencias implícitas entre modelo y datos</li>
+            </ul>
+          </div>
+
+          <!-- Imagen contexto -->
+          <div class="col-lg-5">
+            <div class="border rounded-3 p-3 h-100 d-flex align-items-center justify-content-center text-muted bg-white">
+              <!-- <span>📌 Diagrama general del sistema<br>(LLM + LangGraph + Qdrant + PostgreSQL)</span>
+               -->
+              <img src="assets\img\portfolio\flujo.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+
+        <!-- Modelo de información -->
+        <div class="row mb-5">
+          <div class="col-12">
+            <h5>Modelo de información y gobernanza</h5>
+            <p>
+              La información de cada cliente se modela como bloques estructurados,
+              representando unidades lógicas independientes.
+              Cada bloque contiene referencias al cliente, categoría semántica,
+              contenido indexable y metadata para auditoría.
+            </p>
+
+            <span class="fw-semibold">Ejemplo de bloque de información</span>
+            <pre class="mt-2">
+              <code>{
+                "client_id": 1,
+                "category": "pagos",
+                "content": "Nuestras formas de pago son en efectivo, tarjetas de débito,
+                tarjetas de crédito y Mercado Pago...",
+                "created_at": "...",
+                "enabled": true,
+                "last_updated": null
+              }</code>    
+            </pre>
+          </div>
+        </div>
+
+        <!-- Roles DB -->
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <h5>Rol de PostgreSQL</h5>
+            <p>
+              PostgreSQL se utiliza como capa de control y auditoría,
+              no como fuente directa de información para el modelo.
+            </p>
+            <ul>
+              <li>Persistir bloques estructurados</li>
+              <li>Controlar estado de habilitación del contenido</li>
+              <li>Auditar cliente, estado y vigencia</li>
+              <li>Actualizar contenido sin reindexar toda la colección</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6">
+            <h5>Rol de Qdrant como fuente operativa</h5>
+            <p>
+              Qdrant provee la información al sistema en tiempo de ejecución.
+              Cada bloque se transforma en uno o más embeddings mediante
+              chunking semántico e indexación con metadata explícita.
+            </p>
+            <ul>
+              <li>Las búsquedas se resuelven solo contra Qdrant</li>
+              <li>PostgreSQL queda fuera del flujo crítico</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Vector store -->
+        <div class="row mb-5">
+          <div class="col-lg-7">
+            <h5>Diseño de la base de datos vectorial</h5>
+            <p>
+              Se utiliza una única colección para todos los clientes.
+              El aislamiento se logra mediante metadata,
+              no separación física.
+            </p>
+
+            <h6>Chunking</h6>
+            <p>
+              Cada bloque pasa por chunking semántico para mejorar la
+              precisión en consultas específicas.
+            </p>
+
+            <h6>Indexación</h6>
+            <p>
+              Cada chunk se indexa junto con metadata del bloque,
+              permitiendo filtrados eficientes por cliente y categoría.
+            </p>
+
+            <h6>Índices definidos</h6>
+            <p>
+              Se crean índices explícitos sobre metadata para optimizar
+              búsquedas en escenarios multicliente de alto volumen.
+            </p>
+          </div>
+
+          <!-- Imagen vector store -->
+          <div class="col-lg-5">
+            <div class="border rounded-3 p-3 h-100 d-flex align-items-center justify-content-center text-muted bg-white">
+              <!-- <span>📌 Diagrama de chunking + metadata + filtros</span> -->
+              <img src="assets\img\portfolio\chunking.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+
+        <!-- Búsqueda -->
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <h5>Búsqueda semántica</h5>
+            <p>
+              Las consultas se resuelven mediante similitud vectorial,
+              aplicando filtros estrictos por cliente, categoría y estado.
+              Esto evita fugas de información entre tenants.
+            </p>
+          </div>
+
+          <div class="col-lg-6">
+            <pre>
+              <code>docs = vector_store.similarity_search_with_relevance_scores(
+                query=query,
+                k=4,
+                filter={
+                  "must": [
+                    {"key": "metadata.client_id", "match": {"value": client_id}},
+                    {"key": "metadata.enabled", "match": {"value": true}},
+                    {"key": "metadata.category", "match": {"value": category}}
+                  ]
+                }
+              )</code>
+            </pre>
+          </div>
+        </div>
+
+        <!-- Auditoría -->
+        <div class="row mb-5">
+          <div class="col-lg-6 col-12">
+            <h5>Auditoría y trazabilidad</h5>
+            <ul>
+              <li>Identificación del bloque utilizado</li>
+              <li>Verificación de estado al momento de la consulta</li>
+              <li>Análisis de información influyente en respuestas</li>
+              <li>Actualización parcial del vector store</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-12">
+            <h5>Trade-offs y limitaciones</h5>
+            <ul>
+              <li>Requiere alineación semántica por categorías</li>
+              <li>Depende de una buena estructuración inicial</li>
+              <li>Introduce mayor complejidad operativa</li>
+              <li>Requiere consistencia entre PostgreSQL y Qdrant</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    
+    <section class="section light-background" id="case-sam">
+      <div class="container" data-aos="fade-up">
+
+        <!-- Header -->
+        <div class="section-title text-start mb-5">
+          <h3>Startup en desarrollo</h3>
+
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <p class="mb-1">
+                Sistema Automatizado de Mensajes
+              </p>
+            </div>
+            <div class="col-lg-4 text-lg-end fst-italic">
+              Presente
+            </div>
+          </div>
+        </div>
+
+        <!-- Contexto -->
+        <div class="row mb-5">
+          <div class="col-lg-7">
+            <h5>Contexto</h5>
+            <p>
+              Sistema Automatizado de Mensajes surge como respuesta a la falta de organización, registros y automatización en pequeños emprendedores y PyMes que suelen trabajar con un sistema de agenda manual y poco estructurado.
+            </p>
+            <p>
+             Se observó que la mayoria de estas empresas o personas que trabajan por cuenta propia, suelen encarganse de más de un área de trabajo y aunque con una cantidad controlada de clientes no suelen existir mayores complicaciones, cuando el emprendimiento comienza a crecer, la sobrecarga administrativa aumenta exponencialmente, incrementando la cantidad de errores humanos y reduciendo la probabilidad de concretar ventas.
+            </p>
+          </div>
+
+          <!-- Imagen contexto -->
+          <div class="col-lg-5">
+            <div class="border rounded-3 p-3 h-100 d-flex align-items-center justify-content-center text-muted bg-white">
+              <!-- <span>📌 Diagrama general del sistema<br>(LLM + LangGraph + Qdrant + PostgreSQL)</span>
+               -->
+              <img src="assets\img\portfolio\SAM.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+
+        <!-- Modelo de información -->
+        <div class="row mb-5">
+          <div class="col-12">
+            <h5>Propuesta en desarrollo</h5>
+            <p>
+              SAM es un agente conversacional implementado en LangGraph y Whatsapp API, donde los usuarios pueder comunicarse de forma natural y sin restricciones. SAM funciona como un asistente para la empresa, donde se encargara de resolver todas las solicitudes de los usuarios, desde preguntas especificas sobre el negocio (dirección, horarios de apertura, politicas del lugar, etc), hasta agendar, modificar, cancelar y consultar turnos/reservas. 
+            </p>
+
+            <p>De esta manera, se reduce la cantidad de gestión operativa de la empresa, permitiendole al empresario brindar un mejor servicio sin sacrificar calidad ni tiempo extra.</p>
+          </div>
+        </div>
+
+        <div class="row mb-5 d-flex justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h5>Mas información</h5>
+            <p>
+             Para información mas detallada sobre las caracteristicas de la Startup y su funcionamiento, puede visitar la página web:
+            </p>
+            <a class="btn btn-lg btn-primary" href="https://amaikegop.github.io/SAM-WEB/" target="_blank">Ir a página web</a>
+          </div>
+        </div>
+    </section>
+
+    <section class="section light-background" id="case-tesis">
+      <div class="container" data-aos="fade-up">
+
+        <!-- Header -->
+        <div class="section-title text-start mb-5">
+          <h3 class="resume-title">Robótica Autónoma – Sistema de Control Basado en Comportamientos</h3>
+
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <p class="mb-1">
+                Proyecto de Tesis de Grado – Ingeniería en Sistemas
+              </p>
+            </div>
+            <div class="col-lg-4 text-lg-end fst-italic">
+              Junio 2025
+            </div>
+          </div>
+        </div>
+
+        <!-- Contexto -->
+        <div class="row mb-5">
+          <div class="col-lg-7">
+            <h5>Contexto</h5>
+            <p>
+              Este proyecto final de grado se centra en el diseño e implementación de una herramienta gráfica computacional para la definición de controladores basados en comportamientos en robótica. La herramienta permite modelar comportamientos complejos a partir de comportamientos simples, el diseño del proceso de toma de decisiones, mediante la lectura de los valores de los sensores en un entorno dináamico.
+            </p>
+            Mediante la utilización de la herramienta fue posible desarrollar y testear multiples configuraciones de controladores para un robot vehicular no tripulado de 4 ruedas, capaz de seguir trayectorias definidas por el usuario basandose en la orientación y estimación calculada a partir de sensores IMU.
+            <p>
+            </p>
+          </div>
+
+          <!-- Imagen contexto -->
+          <div class="col-lg-5">
+            <div class="border rounded-3 p-3 h-100 d-flex align-items-center justify-content-center text-muted bg-white">
+              <div class="text-center">
+                <img src="assets\img\portfolio\tesis.png" alt="" class="img-fluid">
+                <span class="fst-italick">Ejemplo de trayectoria realizada por el robot en un entorno complejo, utilizando un controlador implementado con la herramienta</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="col-6">
+            <h5>Motivación</h5>
+            <p>
+              Esta tesis de grado representa mi punto de entrada formal al campo de la robótica autónoma. Surge del interés por comprender y diseñar sistemas capaces de tomar decisiones de manera autónoma, interactuar con su entorno y ejecutar comportamientos complejos de forma confiable.
+            </p>
+            <p>
+              Mi objetivo a mediano y largo plazo es transicionar desde entornos de simulación hacia sistemas robóticos aplicados en escenarios reales, donde factores como la incertidumbre, el ruido sensorial y las restricciones físicas imponen desafíos adicionales. Esta tesis sienta las bases conceptuales y técnicas para ese recorrido, aportando experiencia en diseño, validación y análisis de sistemas autónomos.
+            </p>
+
+            <p>
+              A través de este proyecto busco contribuir al desarrollo de soluciones innovadoras en robótica, particularmente en áreas como autonomía, control, inspección y sistemas inteligentes, combinando un enfoque de ingeniería con una visión orientada a aplicaciones reales.
+            </p>
+          </div>
+           <div class="col-6">
+            <h5>Enfoque técnico</h5>
+            <p>
+              Para todo el desarrollo de la tesis, se utilizó un marco técnico como guia en cada etapa de implementación.
+            </p>
+
+            <ul>
+              <li>Arquitecturas de controladores basados en comportamientos</li>
+              <li>Construcción de comportamientos complejos a partir de la combinación de comportamientos simples mediante reglas definidas</li>
+              <li>Sistema de orientación y estimación de la posición solo utilizando sensores IMU</li>
+              <li>Toma de decisiones y autonomía</li>
+              <li>Simulación en la plataforma Webots utilizando robots comerciales</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row mb-5 d-flex justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h5>Mas información</h5>
+            <p>
+             Para información mas detallada sobre el desarrollo de la herramienta, puede consultar el siguiente link, donde encontrará ejemplos graficos de control de trayectoria en distintos entornos, el pseudocódigo generado con el lenguaje de la herramienta para cada uno de los ejemplos, el infrome completo presentado en la tesis de grado, entre otros :
+            </p>
+            <a class="btn btn-lg btn-primary" href="https://drive.google.com/drive/folders/15qdGJXYji_0g7__ms0H4iyDZgqimT9uy?usp=sharing" target="_blank">Acceder a la tesis</a>
+          </div>
+        </div>
+    </section>
+
+
+
+
+  </main>
+
+   <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://wa.me/5492494663349" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/amaike-gopar/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="text-center mt-3">
+        <span>Amaiké Gopar</span>
+      </div>
+      
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+
