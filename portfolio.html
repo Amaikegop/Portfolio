@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio - FolioOne Bootstrap Template</title>
+  <title>Amaiké Gopar</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -186,7 +186,7 @@
       <div class="container" data-aos="fade-up">
 
         <!-- Header -->
-        <div class="section-title text-start mb-3">
+        <div class="section-title text-start mb-3 pb-3">
           <h3>Orquestación de herramientas con LangGraph</h3>
           <div class="row align-items-center">
             <div class="col-lg-8">
@@ -245,7 +245,7 @@
         </div>
 
         <!-- 3. Diseño del grafo -->
-        <div class="row mb-5">
+        <div class="row mb-3">
           <div class="col-12">
             <h5>Diseño del grafo de orquestación</h5>
             <p>
@@ -255,7 +255,7 @@
             </p>
 
             <div class="row d-flex justify-content-around">
-              <div class="col-lg-4 p-3 border rounded">
+              <div class="col-lg-4 p-3 border-lg rounded">
                 <h6 >Objetivos de diseño</h6>
                   <ul>
                     <li>Evitar flujos implícitos</li>
@@ -265,7 +265,7 @@
                   </ul>
                 
               </div>
-              <div class="col-lg-4 p-3 border rounded">
+              <div class="col-lg-4 p-3 border-lg rounded">
                 <h6>Principios</h6>
                 <ul>
                   <li>Cada nodo cumple una única responsabilidad</li>
@@ -282,7 +282,7 @@
         <div class="row mb-5">
           <h5>Flujo conceptual del sistema</h5>
       
-            <div class="col-6 mt-3">
+            <div class="col-lg-6 mt-3">
               <h6>Manejo de estado</h6>
               <p>
                 El estado conversacional es una estructura explícita que persiste entre mensajes
@@ -296,7 +296,7 @@
               </ul>
             </div>
 
-            <div class="col-6 mt-3">
+            <div class="col-lg-6 mt-3">
               <h6>Orquestación de herramientas</h6>
               <p>
                 Las herramientas se implementan como funciones determinísticas,
@@ -364,7 +364,7 @@
       <div class="container" data-aos="fade-up">
 
         <!-- Header -->
-        <div class="section-title text-start mb-5">
+        <div class="section-title text-start mb-3 pb-3">
           <h3>Diseño de un sistema RAG con Qdrant como fuente operativa y PostgreSQL para auditoría</h3>
 
           <div class="row align-items-center">
@@ -373,7 +373,7 @@
                 Recuperación semántica controlada en sistemas conversacionales multicliente
               </p>
             </div>
-            <div class="col-lg-4 text-lg-end fst-italic text-muted">
+            <div class="col-lg-4 text-lg-end fst-italic ">
               Enero 2026
             </div>
           </div>
@@ -432,15 +432,16 @@
 
             <span class="fw-semibold">Ejemplo de bloque de información</span>
             <pre class="mt-2">
-              <code>{
-                "client_id": 1,
-                "category": "pagos",
-                "content": "Nuestras formas de pago son en efectivo, tarjetas de débito,
-                tarjetas de crédito y Mercado Pago...",
-                "created_at": "...",
-                "enabled": true,
-                "last_updated": null
-              }</code>    
+              <code>
+{
+  "client_id": 1,
+  "category": "pagos",
+  "content": "Nuestras formas de pago son en efectivo, tarjetas de débito,
+              tarjetas de crédito y Mercado Pago...",
+  "created_at": "...",
+  "enabled": true,
+  "last_updated": null
+}</code>    
             </pre>
           </div>
         </div>
@@ -526,17 +527,18 @@
 
           <div class="col-lg-6">
             <pre>
-              <code>docs = vector_store.similarity_search_with_relevance_scores(
-                query=query,
-                k=4,
-                filter={
-                  "must": [
-                    {"key": "metadata.client_id", "match": {"value": client_id}},
-                    {"key": "metadata.enabled", "match": {"value": true}},
-                    {"key": "metadata.category", "match": {"value": category}}
-                  ]
-                }
-              )</code>
+              <code>
+  docs = vector_store.similarity_search_with_relevance_scores(
+    query=query,
+    k=4,
+    filter={
+      "must": [
+        {"key": "metadata.client_id", "match": {"value": client_id}},
+        {"key": "metadata.enabled", "match": {"value": true}},
+        {"key": "metadata.category", "match": {"value": category}}
+      ]
+    }
+  )</code>
             </pre>
           </div>
         </div>
@@ -571,7 +573,7 @@
       <div class="container" data-aos="fade-up">
 
         <!-- Header -->
-        <div class="section-title text-start mb-5">
+        <div class="section-title text-start mb-3 pb-3">
           <h3>Startup en desarrollo</h3>
 
           <div class="row align-items-center">
@@ -635,7 +637,7 @@
       <div class="container" data-aos="fade-up">
 
         <!-- Header -->
-        <div class="section-title text-start mb-5">
+        <div class="section-title text-start mb-3 pb-3">
           <h3 class="resume-title">Robótica Autónoma – Sistema de Control Basado en Comportamientos</h3>
 
           <div class="row align-items-center">
@@ -664,17 +666,17 @@
 
           <!-- Imagen contexto -->
           <div class="col-lg-5">
-            <div class="border rounded-3 p-3 h-100 d-flex align-items-center justify-content-center text-muted bg-white">
-              <div class="text-center">
+            <div class="border rounded-3 p-3 h-100 d-flex align-items-center justify-content-center text-muted">
+              <div class="text-center bg-dark p-2">
                 <img src="assets\img\portfolio\tesis.png" alt="" class="img-fluid">
-                <span class="fst-italick">Ejemplo de trayectoria realizada por el robot en un entorno complejo, utilizando un controlador implementado con la herramienta</span>
+                <span class="fst-italick text-light">Ejemplo de trayectoria realizada por el robot en un entorno complejo, utilizando un controlador implementado con la herramienta</span>
               </div>
             </div>
           </div>
         </div>
 
         <div class="row mb-5">
-          <div class="col-6">
+          <div class="col-lg-6">
             <h5>Motivación</h5>
             <p>
               Esta tesis de grado representa mi punto de entrada formal al campo de la robótica autónoma. Surge del interés por comprender y diseñar sistemas capaces de tomar decisiones de manera autónoma, interactuar con su entorno y ejecutar comportamientos complejos de forma confiable.
@@ -687,7 +689,7 @@
               A través de este proyecto busco contribuir al desarrollo de soluciones innovadoras en robótica, particularmente en áreas como autonomía, control, inspección y sistemas inteligentes, combinando un enfoque de ingeniería con una visión orientada a aplicaciones reales.
             </p>
           </div>
-           <div class="col-6">
+           <div class="col-lg-6">
             <h5>Enfoque técnico</h5>
             <p>
               Para todo el desarrollo de la tesis, se utilizó un marco técnico como guia en cada etapa de implementación.
